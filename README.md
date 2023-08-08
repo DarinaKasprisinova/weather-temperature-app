@@ -41,7 +41,8 @@ The app is pretty much responsive allowing using it on a smaller devices such as
 ```
 npm install
 ```
-##Before starting project
+
+## Before starting project
 
 Before starting project you need to setup OpenWeather api. Here is what you nedd to do:
 
