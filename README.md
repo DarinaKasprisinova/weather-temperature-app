@@ -12,16 +12,20 @@ This is what the app looks like so far:
 
 You have option to choose from the list of Slovak cities.
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/b39c42c6-7a65-4233-9eb5-c1cc69b65ab4)
-And also you have an option to type your desired city an clicking enter. 
+And also you have an option to type your desired city and clicking enter. 
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/6fd96a2b-38e4-4127-89b4-f202051e41bd)
 
 You can change units from metric to imperial and vice versa by clicking the button 
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/03bf0d95-a82f-4b4c-80df-e8e31e7d56b8)
 
 I have these background that change depending on temperature. I have really hottest, hot, cold and freezing background. 
+
 When the temperature is below 5°C or 41°F (including) the background will be freezing.
+
 When the temperature is below 14°C or 57°F (including) the background will be cold.
+
 When the temperature is below 22°C or 72°F (including) the background will be hot.
+
 When the temperature is over 5°C or 41°F the background will be hottest.
 
 Freezing
@@ -47,7 +51,9 @@ npm install
 
 ## Before starting project
 
-Before starting project you need to setup OpenWeather api. Here is what you nedd to do:
+Before starting project you need to setup OpenWeather api. 
+
+Here is what you nedd to do:
 
 Go to  https://openweathermap.org/ 
 
@@ -61,7 +67,7 @@ create new new key in the section Create key
 
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/1ba4412a-e320-41f7-ac22-039432b4ad64)
 
-your key shoud look like this uncensoured one do not use this one i will not work because i am deleting it 
+your key shoud look like this uncensoured one do not use this one it will not work because I deleted it after I took the screenshot
 
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/a6e01d81-080f-4312-9553-42e95a62bc4a)
 
