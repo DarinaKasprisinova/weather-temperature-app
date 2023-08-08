@@ -1,8 +1,11 @@
 # weather-app
 This app is made with React.js
+
 I am using OpenWeather api to fetch data about weather. 
+
 The icons are React icons.
-I have sourced images for my dynamic background on Shutterstock, where pictures are free to use even commercionally (are copyright free).
+
+I have sourced images for my dynamic background on Pixabay, where pictures are free to use even commercionally (are copyright free).
 
 This is what the app looks like so far:
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/cc824592-44da-4663-97fa-e19774fc6370)
