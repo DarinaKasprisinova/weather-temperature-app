@@ -36,10 +36,38 @@ The app is pretty much responsive allowing using it on a smaller devices such as
 
 
 
+
 ## Project setup
 ```
 npm install
 ```
+##Before starting project
+
+Before starting project you need to setup OpenWeather api. Here is what you nedd to do:
+
+Go to  https://openweathermap.org/ 
+
+Log In or create an account 
+
+click on your profile and on My API keys 
+
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/465c52b1-1ab2-4935-8565-7b45a3638247)
+
+create new new key in the section Create key 
+
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/1ba4412a-e320-41f7-ac22-039432b4ad64)
+
+your key shoud look like this uncensoured one do not use this one i will not work because i am deleting it 
+
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/a6e01d81-080f-4312-9553-42e95a62bc4a)
+
+Then you need to go to this apps src/components/weatherService.js
+
+and you need to change YOUR_API_KEY to be the key you got from the OpenWeather website in  const API_KEY = "YOUR_API_KEY"; (first line of code)
+
+Then you need to wait like 10-15 minutes for your code to activate. 
+
+
 
 ### Compiles and hot-reloads for development
 ```
