@@ -71,11 +71,11 @@ your key shoud look like this uncensoured one do not use this one it will not wo
 
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/a6e01d81-080f-4312-9553-42e95a62bc4a)
 
-Then you need to go to this apps src/components/weatherService.js
+Then you need to go to this apps src/components/weatherService.js and need to change YOUR_API_KEY to be the key you got from the OpenWeather website in:  
 
-and you need to change YOUR_API_KEY to be the key you got from the OpenWeather website in  const API_KEY = "YOUR_API_KEY"; (first line of code)
+const API_KEY = "YOUR_API_KEY"; (first line of code)
 
-Then you need to wait like 10-15 minutes for your code to activate. 
+Then you need to wait about 10-15 minutes for your code to activate. 
 
 
 
