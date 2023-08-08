@@ -1,4 +1,55 @@
+# weather-app
+This app is made with React.js
+I am using OpenWeather api to fetch data about weather. 
+The icons are React icons.
+I have sourced images for my dynamic background on Shutterstock, where pictures are free to use even commercionally (are copyright free).
 
+This is what the app looks like so far:
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/cc824592-44da-4663-97fa-e19774fc6370)
+
+You have option to choose from the list of Slovak cities.
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/b39c42c6-7a65-4233-9eb5-c1cc69b65ab4)
+And also you have an option to type your desired city an clicking enter. 
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/6fd96a2b-38e4-4127-89b4-f202051e41bd)
+
+You can change units from metric to imperial and vice versa by clicking the button 
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/03bf0d95-a82f-4b4c-80df-e8e31e7d56b8)
+
+I have these background that change depending on temperature. I have really hottest, hot, cold and freezing background. 
+When the temperature is below 5°C or 41°F (including) the background will be freezing.
+When the temperature is below 14°C or 57°F (including) the background will be cold.
+When the temperature is below 22°C or 72°F (including) the background will be hot.
+When the temperature is over 5°C or 41°F the background will be hottest.
+
+Freezing
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/89d066b3-f5db-42f8-8615-01a19d4df0aa)
+Cold
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/65cdf55a-4103-454d-b9f9-9ec683e01778)
+Hot
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/91f9012f-7e49-4cdf-9da7-c5ff72341fac)
+Hottest
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/e7b7a2f9-4df8-4e15-83d7-0b1b813bd4a1)
+
+The app is pretty much responsive allowing using it on a smaller devices such as tablets or smartphones. 
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/62d4357f-33fb-4f9a-a2cc-d609ea6cef3c)
+![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/70a67157-03eb-4b9d-81c7-52b8ce234ab3)
+
+
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm start
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
 
 <!-- 
 
