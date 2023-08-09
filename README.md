@@ -41,6 +41,9 @@ The app is pretty much responsive allowing using it on a smaller devices such as
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/62d4357f-33fb-4f9a-a2cc-d609ea6cef3c)
 ![image](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/70a67157-03eb-4b9d-81c7-52b8ce234ab3)
 
+I have also added error handling (when user types non existing city name the user recieves an error message) 
+
+![Capture](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/4c61efd1-f2aa-402e-ab0f-f0ae9aa3ea97)
 
 
 
