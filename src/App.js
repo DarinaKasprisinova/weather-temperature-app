@@ -5,6 +5,7 @@ import freezing from "./assets/freezing.jpg"
 import Descriptions from "./components/Descriptions";
 import { useEffect, useState } from "react";
 import { getFormattedWeatherData } from "./weatherService";
+import { MdPadding } from "react-icons/md";
 
 function App() {
   const towns = [ "Banská Bystrica", "Bardejov", "Bratislava", "Humenné",  "Košice",  "Michalovce",  "Nitra",  "Piešťany", "Poprad", "Prešov", "Prievidza", "Skalica", "Trenčín", "Trnava", "Žilina" ];
@@ -12,22 +13,28 @@ function App() {
   const [city, setCity] = useState("Košice");
   const [weather, setWeather] = useState(null);
   const [units, setUnits] = useState('metric');
+  const [errorMessage, setErrorMessage] = useState(null);
   const [bg, setBg] = useState(hot);
 
   useEffect(() => {
     const fetchWeatherData = async () => {
-      const data = await getFormattedWeatherData(city, units);
-      setWeather(data);
-
-      //dynamic bg
-      const treshold = units === "metric" ? 22 : 72;
-      const treshold2 = units === "metric" ? 14 : 57;
-      const treshold3 = units === "metric" ? 5 : 41;
-
-      if (data.temp <= treshold3) setBg(freezing) 
-      else if (data.temp <= treshold2) setBg(cold)
-      else if (data.temp <= treshold) setBg(hot) 
-      else setBg(hottest);
+      try { const data = await getFormattedWeatherData(city, units);
+        setWeather(data);
+        setErrorMessage("")
+  
+        //dynamic bg
+        const treshold = units === "metric" ? 22 : 72;
+        const treshold2 = units === "metric" ? 14 : 57;
+        const treshold3 = units === "metric" ? 5 : 41;
+  
+        if (data.temp <= treshold3) setBg(freezing) 
+        else if (data.temp <= treshold2) setBg(cold)
+        else if (data.temp <= treshold) setBg(hot) 
+        else setBg(hottest); } 
+      catch (error) {
+        setErrorMessage("Town with that name does not exist");
+      }
+      
     };
 
     fetchWeatherData();
@@ -80,6 +87,8 @@ function App() {
 
               <button onClick={(e) => handleUnitsClick(e)}>°F</button>
             </div>
+
+            {errorMessage && <p className="section__temperature" style={{ color: "crimson", padding: "10px" }}>{errorMessage}</p>}
 
             <div className="section section__temperature">
               <div className="icon">
