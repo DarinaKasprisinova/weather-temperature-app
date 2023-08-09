@@ -16,8 +16,6 @@ function App() {
   const [errorMessage, setErrorMessage] = useState(null);
   const [bg, setBg] = useState(hot);
 
-  // smthing
-
   useEffect(() => {
     const fetchWeatherData = async () => {
       try { const data = await getFormattedWeatherData(city, units);
