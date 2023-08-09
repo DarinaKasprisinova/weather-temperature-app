@@ -1,9 +1,9 @@
 # weather-app
 This app is made with React.js
 
-I am using OpenWeather api to fetch data about weather. 
+I am using OpenWeather api to fetch data about current weather from locations all over the world. 
 
-The icons are React icons.
+The icons are React icons, except for weather icon. I am using weather icon from OpenWeather api.
 
 I have sourced images for my dynamic background on Pixabay, where pictures are free to use even commercionally (are copyright free).
 
@@ -44,7 +44,6 @@ The app is pretty much responsive allowing using it on a smaller devices such as
 I have also added error handling (when user types non existing city name the user recieves an error message).
 
 ![Capture](https://github.com/DarinaKasprisinova/weather-temperature-app/assets/61416662/4c61efd1-f2aa-402e-ab0f-f0ae9aa3ea97)
-
 
 
 ## Project setup
